@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Worktops Direct</title>
+
+    <script>
+        function calc()
+        {
+            var n1 = document.getElementById("n1").value;
+            var n2 = document.getElementById("n2").value;
+            var opt = document.getElementById("operator").value;
+            var color = document.getElementById("color").value;
+
+
+            // 30mm width
+            if(opt === "30" && color == "Amalfi")
+            {
+                var nz = document.getElementById("result").value = ((n1 * n2) / 1000) * 400;
+            }
+            if(opt === "30" && color == "Teos")
+            {
+                var nz = document.getElementById("result").value = ((n1 * n2) / 1000) * 450;
+            }
+            if(opt === "30" && color == "Aspen-ice")
+            {
+                var nz = document.getElementById("result").value = ((n1 * n2) / 1000) * 500;
+            }
+            if(opt === "30" && color == "Venitzia")
+            {
+                var nz = document.getElementById("result").value = ((n1 * n2) / 1000) * 550;
+            }
+            if(opt === "30" && color == "Victory")
+            {
+                var nz = document.getElementById("result").value = ((n1 * n2) / 1000) * 600;
+            }
+
+            // 20mm width
+            if(opt === "20" && color == "Amalfi")
+            {
+                var nz = document.getElementById("result").value = ((n1 * n2) / 1000) * 350;
+            }
+            if(opt === "20" && color == "Teos")
+            {
+                var nz = document.getElementById("result").value = ((n1 * n2) / 1000) * 400;
+            }
+            if(opt === "20" && color == "Aspen-ice")
+            {
+                var nz = document.getElementById("result").value = ((n1 * n2) / 1000) * 450;
+            }
+            if(opt === "20" && color == "Venitzia")
+            {
+                var nz = document.getElementById("result").value = ((n1 * n2) / 1000) * 500;
+            }
+            if(opt === "20" && color == "Victory")
+            {
+                var nz = document.getElementById("result").value = ((n1 * n2) / 1000) * 550;
+                
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <!-- Header section starts here------------------------------------------------------------------>
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#home"><h1><span>W</span>orktops <span>D</span>irect</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="burger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#hero" data-after="Hero">Home</a></li>
+                       <!-- <li><a href="#services" data-after="Services">Services</a></li> -->
+                        <li><a href="#projects" data-after="Projects">Products</a></li>
+                        <li><a href="#math" data-after="Buy Now">Buy Now</a></li>
+                       <!-- <li><a href="#about" data-after="About">About</a></li> -->
+                        <li><a href="#contact" data-after="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Header section ends here-------------------------------------------------------------------->
+
+    <!-- main section ends here-------------------------------------------------------------------->
+
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1>Welcome<span></span></h1>
+                <h1>To<span></span></h1>
+                <h1>Worktops Direct<span></span></h1>
+                <a href="#math" type="button" class="cta"><h4>Buy Now</h4></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- main section ends here-------------------------------------------------------------------->
+
+    <!--  service section starts here-------------------------------------------------------------------->
+    <!--<section id="services">
+        <div class="services container">
+        <div class="service-top">
+            <h1 class="section-title">Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas
+            magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias
+            voluptatum explicabo!</p>
+        </div>
+        <div class="service-bottom">
+            <div class="service-item">
+            <div class="icon"><img src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-game-free-time-wanicon-lineal-color-wanicon.png" /></div>
+            <h2>Free samples</h2>
+            <p> Free samples can be delivered straight to your doorstep, all you have to do is fill in a form and we will send it to you.
+                </p>
+            </div>
+            <div class="service-item">
+            <div class="icon"><img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-web-development-coding-kiranshastry-lineal-color-kiranshastry.png" /></div>
+            <h2>Various types of Edges</h2>
+            <p>Customize your Worktop to have your desired edge, with a wide range of options to go for. </p>
+            </div>
+            <div class="service-item">
+            <div class="icon"><img src="https://img.icons8.com/external-photo3ideastudio-lineal-color-photo3ideastudio/64/000000/external-app-development-online-business-photo3ideastudio-lineal-color-photo3ideastudio.png" /></div>
+            <h2>Wide Range Of Materials</h2>
+            <p>With a wide range of materials each with their own benfits there are also a number of colours to choose from</p>
+            </div>
+            <div class="service-item">
+            <div class="icon"><img src="https://img.icons8.com/external-color-line-collection-vinzence-studio/64/000000/external-inventor-augmented-reality-color-line-collection-vinzence-studio.png" /></div>
+            <h2>Quartz</h2>
+            <p>
+                Durable and long lasting material<br>
+                Scratch and stain resistance<br>
+                Scratch and stain resistance<br>
+                Totally sealed and polished surface<br>
+            
+            </p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- service section ends here-------------------------------------------------------------------->
+
+    <!-- project section start here--------------------------------------------------------------------
+
+    <section id="projects">
+        <div class="projects container">
+            <div class="projects-header">
+                <h1 class="section-title">Products</h1>
+            </div>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Amalfi</h1>
+                        
+                        <h2>Marbelled quartz</h2><p>Quartz is one of the most durable, stylish and long-lasting materials to be used in kitchens, bathrooms and even home offices.
+                             Classed within the Natural Stone family, Quartz is a manmade stone that offers all of the benefits of marble with a lower cost and more durability.
+                           <h3> <br>Price per square metre £400 for a height of 30mm.</br>
+                            <br>Price per square metre £350 for a height of 20mm</br>
+                           </h3></p>
+                        </div>
+                        <div class="project-img">
+                            <img src="./images/amalfi.jpeg" alt="img">
+                        </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Teos</h1>
+                        <h2>Granite</h2>
+                        <p>Granite is a fantastic product suitable for use in any kitchen environment, 
+                            especially where style, performance and longevity in countertops are all important.
+
+
+                          <h3> <br>Price per square metre £450 for a height of 30mm.</br>
+                           <br>Price per square metre £400 for a height of 20mm</br>
+                          </h3></p>
+
+                        </div>
+                        <div class="project-img">
+                            <img src="./images/teos.jpeg" alt="img">
+                        </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Aspen-ice</h1>
+                        <h2>Quartz</h2><p>Quartz is one of the most durable, stylish and long-lasting materials to be used in kitchens, bathrooms and even home offices.
+                            Classed within the Natural Stone family, Quartz is a manmade stone that offers all of the benefits of marble with a lower cost and more durability.
+                          <h3> <br>Price per square metre £500 for a height of 30mm.</br>
+                           <br>Price per square metre £450 for a height of 20mm</br>
+                          </h3></p>
+                        
+                        </div>
+                        <div class="project-img">
+                            <img src="./images/only sink.jpeg" alt="img">
+                        </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Venitzia</h1>
+                        <h2>Marbelled quartz</h2><p>Quartz is one of the most durable, stylish and long-lasting materials to be used in kitchens, bathrooms and even home offices.
+                            Classed within the Natural Stone family, Quartz is a manmade stone that offers all of the benefits of marble with a lower cost and more durability.
+                          <h3> <br>Price per square metre £550 for a height of 30mm.</br>
+                           <br>Price per square metre £500 for a height of 20mm</br>
+                          </h3></p>
+                        </div>
+                        <div class="project-img">
+                            <img src="./images/vernetsia.jpeg" alt="img">
+                        </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Victory</h1>
+                        <h2>Marbelled quartz</h2><p>Quartz is one of the most durable, stylish and long-lasting materials to be used in kitchens, bathrooms and even home offices.
+                            Classed within the Natural Stone family, Quartz is a manmade stone that offers all of the benefits of marble with a lower cost and more durability.
+                          <h3> <br>Price per square metre £600 for a height of 30mm.</br>
+                           <br>Price per square metre £550 for a height of 20mm</br>
+                          </h3></p>
+                        </div>
+                        <div class="project-img">
+                            <img src="./images/victory.jpeg" alt="img">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section ends here-------------------------------------------------------------------->
+
+    <!-- math section ------------------------------------------------------------------------------->
+    <section id="math">
+        <div class="math-header">
+            <h1 class="section-title">Buy Now</h1>
+        </div>
+        <!--<input type="text" id="n1"/></br>
+        <input type="text" id="n2"/></br>-->
+        <div class="math-form">
+            <form onsubmit="return false">
+                <div class="inputBox">
+                    <input type="text" id="n1" required="required">
+                    <span>Width</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" id="n2" required="required">
+                    <span>Length</span>
+                </div>
+                <div class="inputBox">
+                    <select id="operator">
+                        <option value="30">30mm</option>
+                        <option value="20">20mm</option>
+                    </select>
+                </div>
+                <div class="inputBox">
+                    <select id="color">
+                        <option value="Amalfi">Amalfi</option>
+                        <option value="Teos">Teos</option>
+                        <option value="Aspen-ice">Aspen-ice</option>
+                        <option value="Venitzia">Venitzia</option>
+                        <option value="Victory">Victory</option>
+                    </select>
+                </div>
+                <div class="inputBox">
+                    <button onclick="calc()">=</button><br></br>
+                    <input type="text" id="result" required="required">
+                    <span>Price</span>
+                </div>
+            </form>
+        </div>
+        
+
+        <!--<select id="operator">
+            <option value="30">30mm</option>
+            <option value="20">20mm</option>
+        </select><br></br>
+
+        <select id="color">
+            <option value="Amalfi">Amalfi</option>
+            <option value="Teos">Teos</option>
+            <option value="Aspen-ice">Aspen-ice</option>
+            <option value="Venitzia">Venitzia</option>
+            <option value="Victory">Victory</option>
+        </select><br></br>
+
+        <button onclick="calc()">=</button><br></br>
+        <input type="text" id="result"/>
+    </section>
+    <!-- end math section --------------------------------------------------------------------------->
+
+<!--About-->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="./images/front cover page.jpeg" alt="img">
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title">ABOUT <span>US</span></h1>
+                <h2>Worktop Manufacturer</h2>
+                <p>Rock & Co worktops bring luxury to your kitchen. With a huge selection of colours and patterns to choose from, we are sure you will find something that suits you perfectly. We are dedicated to creating the best possible customer experience, which is why we go above and beyond to make sure our customers are happy. Visit one of our showrooms or get in touch today for more information about what we can offer you</p>
+                <a href="#contact" class="cta"> Order Free Sample </a>
+            </div>
+        </div>
+    </section>
+    <!--End about-->
+
+    <!--Contact section-->
+    <section id="contact">
+        <div class="contact container">
+            <div><h1 class="section-title">Contact <span>Info</span></h1></div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/50/000000/call-me.png"/></div>
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>07596 516845</h2>
+                        <h2>07543 465878</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-email-digital-marketing-flatart-icons-lineal-color-flatarticons-1.png"/></div>
+                    <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>info@gmail.com</h2>
+                        <h2>abcd@gmail.com</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-map-hotel-services-and-city-elements-flatart-icons-lineal-color-flatarticons.png"/></div>
+                    <div class="contact-info">
+                        <h1>Address</h1>
+                        <h2>England, London, leyton</h2>
+                    </div>
+                </div>
+            </div>
+            <!--new send message box-->
+            <div class="contact-form">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="Name" required="required">
+                        <span>Full name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="Email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="send">
+                    </div>
+                </form>
+            </div>
+            <!--end new message box-->
+        </div>
+    </section>
+    <!--End Contact section-->
+
+    <!--Footer-->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand"><h1><span>R</span>ock <span>&</span> Co</h1></div>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="https://www.instagram.com/6yatogami6/"><img src="https://img.icons8.com/color/48/000000/instagram-new.png"/></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/color/48/000000/twitter.png"/></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="./images/icons8-youtube-50.png" alt="img"></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/color/48/000000/github--v1.png"/></a>
+                </div>
+            </div>
+            <p>Copyright © 2020 Rock & Co. All rights reserved</p>
+        </div>
+    </section>
+    <!--End Footer-->
+        
+    <script src="script.js"></script>
+</body>
+</html>
